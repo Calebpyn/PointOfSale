@@ -30,7 +30,7 @@
 }
 
 .new-serch-filters button {
-    width: 60%;
+    width: 70%;
     background-color: #0583F2;
     border: none;
     border-radius: 50px;
@@ -39,34 +39,17 @@
     padding: 9px 0;
     font-size: 13px;
 }
-
+ 
 .new-serch-filters button:hover {
     background-color: #026cc8;
     cursor: pointer;
 }
 
-.new-serch-filters form {
-    display: flex;
-    width: 40%;
-}
-
 #input-text {
-    width: 70%;
+    width: 30%;
     padding: 7px 10px;
     border: solid 2px rgb(134, 134, 134);
     border-radius: 50px;
-    margin-right: 15px;
-    font-size: 13px;
-}
-
-#input-submit {
-    width: 30%;
-    background-color: #0583F2;
-    border: none;
-    border-radius: 50px;
-    color: white;
-    transition: all ease .3s;
-    padding: 7px 0;
     margin-right: 15px;
     font-size: 13px;
 }

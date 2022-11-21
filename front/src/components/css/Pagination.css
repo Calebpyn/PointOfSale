@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', 'Times New Roman', Times, serif;
+}
+
+.main-scroll-catalog {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.maped-items {
+    height: 90%;
+}
+
+.next-prev {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.next-prev button {
+    width: 40%;
+    padding: 5px 0;
+    border: none;
+    background-color: rgb(158, 158, 158);
+    border-radius: 50px;
+    color: rgb(30, 30, 30);
+    transition: all ease .3s;
+}
+
+.next-prev button:hover {
+    cursor: pointer;
+    background-color: rgba(158, 158, 158, 0.611);
+    font-family: 'Lato', 'Times New Roman', Times, serif;
+}
+
+.current-page {
+    font-family: 'Lato', 'Times New Roman', Times, serif;
+}
+
+/* Catalog Items */
+
+.cat-item {
+    background-color: rgb(156, 156, 156);
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.upper-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#prod-name {
+    font-family: 'Roboto', 'Lato', 'Times New Roman', Times, serif;
+}
+
+.middle-box {
+    margin: 7px  0;
+}
+
+.cat-subcat {
+    display: flex;
+    align-items: center;
+}
+
+#cat {
+    padding: 5px 10px;
+    font-size: 13px;
+    background-color: rgba(0, 95, 196, 0.317);
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+#sub-cat {
+    padding: 5px 10px;
+    font-size: 13px;
+    background-color: rgba(0, 95, 196, 0.317);
+    border-radius: 50px;
+}
+
+#desc {
+    margin: 0 0 7px 10px;
+}
+
+#comments {
+    margin-left: 10px;
+}
+
+.bottom-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom-box button {
+    background-color: rgb(113, 113, 113);
+    border: none;
+    border-radius: 50px;
+    padding: 5px 12px;
+    transition: all ease .3s;
+}
+
+.bottom-box button:hover {
+    cursor: pointer;
+    background-color: rgba(113, 113, 113, 0.448);
+}
+
+
+/* Catalog Items */

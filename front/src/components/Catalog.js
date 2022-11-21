@@ -1,48 +1,30 @@
 import React, { useEffect, useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import './css/Catalog.css'
+import Pagination from './Pagination'
 
 function Catalog() {
 
-    useEffect(() => {
-        loadCatitems()
-    },[])
+  const [query, setQuery] = useState('')
 
-    const [catitem, setCatitem] = useState([])
+  const navigate = useNavigate()
 
-    const loadCatitems = async () => {
-
-        try {
-
-            const fRes = await fetch('http://localhost:4000/cat-prods')
-
-            const data = await fRes.json()
-
-            setCatitem(data)
-
-        } catch (err) {
-            console.log(err)
-        }
-
-    }
-
+  const handleChange = (e) => {
+    setQuery(e.target.value)
+  }
+ 
   return (
     <div className='main-cat'>
 
         <div className='new-serch-filters'>
 
-            <form>
-                <input id='input-text' name='prodSearch' placeholder='Search'></input>
-                <input id='input-submit' type='submit' value='Search'></input>
-            </form>
-
-            <button type='button'>New Product</button>
+            <input id='input-text' name='prodSearch' placeholder='Filter' onChange={handleChange}></input>
+            <button type='button' onClick={() => navigate('/new-product')}>New Product</button>
 
         </div>
         
         <div className='main-cat-prods'>
-            <h1>
-                the prods
-            </h1>
+            <Pagination query={query}/>
         </div>
 
     </div>

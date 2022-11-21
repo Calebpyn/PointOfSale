@@ -43,7 +43,7 @@ function Home() {
 
             <div className='orders'>
 
-                <button type='button' id='new-order'>New Order</button>
+                <button type='button' id='new-order' onClick={() => navigate('/new-order')}>New Order</button>
 
                 <div className='last-five'>
                     {order.map((order) => (

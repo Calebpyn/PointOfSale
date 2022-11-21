@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.new-prod-form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 15vh;
+}
+
+.new-prod-form .box {
+    width: 30%;
+}
+
+.new-prod-form form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(142, 142, 142);
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.name-price {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#price {
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-family: 'Lato', 'Times New Roman', Times, serif;
+}
+
+#prod-name-form {
+    width: 50%;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-family: 'Lato', 'Times New Roman', Times, serif;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+}
+
+.new-prod-form textarea {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-family: 'Lato', 'Times New Roman', Times, serif;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.new-prod-form .cat-subcat {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.cat-subcat input {
+    width: 48%;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-family: 'Lato', 'Times New Roman', Times, serif;
+}
+
+#prod-comments {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-family: 'Lato', 'Times New Roman', Times, serif;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+#submit-new-prod {
+    width: 100%;
+    background-color: #0583F2;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    transition: all ease .3s;
+    padding: 7px 0;
+    font-size: 13px;
+}
+
+#submit-new-prod:hover {
+    background-color: #026cc8;
+    cursor: pointer;
+}
+
+#cancel-new-order-form {
+    margin-top: 20px;
+    color: #3f3f3f;
+    text-align: center;
+}
