@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-cat {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 93vh;
+    padding: 40px;
+}
+
+.main-cat-prods {
+    background-color: #d3d3d3;
+    height: 90%;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.new-serch-filters {
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.new-serch-filters button {
+    width: 60%;
+    background-color: #0583F2;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    transition: all ease .3s;
+    padding: 9px 0;
+    font-size: 13px;
+}
+
+.new-serch-filters button:hover {
+    background-color: #026cc8;
+    cursor: pointer;
+}
+
+.new-serch-filters form {
+    display: flex;
+    width: 40%;
+}
+
+#input-text {
+    width: 70%;
+    padding: 7px 10px;
+    border: solid 2px rgb(134, 134, 134);
+    border-radius: 50px;
+    margin-right: 15px;
+    font-size: 13px;
+}
+
+#input-submit {
+    width: 30%;
+    background-color: #0583F2;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    transition: all ease .3s;
+    padding: 7px 0;
+    margin-right: 15px;
+    font-size: 13px;
+}
+
+#input-submit:hover {
+    background-color: #026cc8;
+    cursor: pointer;
+}

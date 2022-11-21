@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.home {
+    display: flex;
+    width: 100%;
+    height: 93vh;
+    padding: 40px;
+}
+
+.orders {
+    width: 45%;
+    background-color: #d3d3d3;
+    border-radius: 25px;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+#new-order {
+    width: 100%;
+    background-color: #0583F2;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    color: white;
+    transition: all ease .3s;
+}
+
+#new-order:hover {
+    background-color: #026cc8;
+    cursor: pointer;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    height: 100%;
+}
+
+.sales-stock {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.sales-stock button {
+    width: 45%;
+    background-color: #0583F2;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.sales-stock button:hover {
+    background-color: #026cc8;
+    cursor: pointer;
+}
+
+.cat-box {
+    width: 100%;
+    background-color: #d3d3d3;
+    padding: 20px;
+    border-radius: 25px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inner-bottom-box {
+    height: 100%;
+}
+
+.date-sale-reg {
+    display: flex;
+    height: 50%;
+    padding-top: 20px;
+}
+
+.date {
+    background-color: #d3d3d3;
+    width: 30%;
+    height: 100%;
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.sales-reg {
+    background-color: #d3d3d3;
+    width: 70%;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+/* Order Cards */
+
+.order {
+    background-color: #979797;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-info {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lato', 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    color: #151515;
+}
+
+.order-content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-family: 'Lato', 'Times New Roman', Times, serif;
+    color: #151515;
+}
+
+.bottom-content {
+    font-family: 'Lato', 'Times New Roman', Times, serif;
+    color: #151515;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-content button {
+    border: none;
+    background-color: #1ea500;
+    color: rgb(16, 64, 0);
+    padding: 4px 10px;
+    border-radius: 50px;
+    transition: all ease .3s;
+}
+
+.bottom-content button:hover {
+    cursor: pointer;
+    background-color: #157100;
+}
+
+/* Order Cards */
+
+.cat-box button {
+    width: 100%;
+    background-color: #0583F2;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 0;
+    color: white;
+}
+
+.cat-box button:hover {
+    background-color: #026cc8;
+    cursor: pointer;
+}
